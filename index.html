@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>One Million Car — Own a piece of the Supercar</title>
+<meta name="description" content="One million spaces. One supercar. Make your mark.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><a class="brand" href="#">ONE MILLION <span>CAR</span></a><nav><a href="#how">How it works</a><a href="#grid">Buy spaces</a><a href="#faq">FAQ</a></nav></header>
+<main>
+<section class="hero"><div class="eyebrow">1,000,000 SPACES · €1 EACH</div><h1>OWN A PIECE OF<br><em>THE SUPERCAR.</em></h1><p>Buy your space. Add your name, message or brand. When the million spaces are sold, the real supercar becomes a one-of-a-kind community artwork.</p><a class="cta" href="#grid">CLAIM YOUR SPACE →</a><div class="stats"><b id="soldTop">0</b><span>spaces claimed</span><b>€1</b><span>per space</span><b>1M</b><span>total spaces</span></div></section>
+<section id="grid" class="builder"><div><div class="eyebrow">THE CAR</div><h2>Choose your place.</h2><p>Tap the car to choose an area, then decide how many spaces you want.</p><div class="car-wrap"><canvas id="car" width="1200" height="520" aria-label="Interactive supercar advertising grid"></canvas><div class="hint">TAP / CLICK TO SELECT AN AREA</div></div></div>
+<aside class="panel"><h3>Your space</h3><label>Number of spaces</label><div class="qty"><button id="minus">−</button><input id="qty" type="number" min="1" max="10000" value="10"><button id="plus">+</button></div><div class="quick"><button data-q="10">10</button><button data-q="100">100</button><button data-q="1000">1,000</button></div><label>Display name / brand</label><input id="name" maxlength="30" placeholder="e.g. RICCARDO"><label>Message <small>(optional)</small></label><input id="message" maxlength="60" placeholder="Your message"><div class="total"><span>Total</span><strong id="total">€10</strong></div><button id="buy" class="cta full">RESERVE SPACES →</button><small class="note">Prototype checkout — no payment is taken yet.</small></aside></section>
+<section id="how" class="how"><div class="eyebrow">HOW IT WORKS</div><h2>From pixels to pavement.</h2><div class="steps"><article><b>01</b><h3>Choose</h3><p>Select an area of the supercar and the number of spaces you want.</p></article><article><b>02</b><h3>Personalize</h3><p>Add a name, message or brand to your piece of the project.</p></article><article><b>03</b><h3>Make it real</h3><p>When all spaces are claimed, the digital design becomes the wrap of the real supercar.</p></article></div></section>
+<section id="faq" class="faq"><h2>One car. One million stories.</h2><p>This is the public MVP of One Million Car. Payments, logo uploads, accounts, moderation and the final auction flow will be added before commercial launch.</p></section>
+</main>
+<footer><b>ONE MILLION CAR</b><span>© 2026 · Built for the million.</span></footer>
+<script src="app.js"></script>
+</body></html>
